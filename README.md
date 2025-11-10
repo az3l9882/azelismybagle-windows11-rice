@@ -4,6 +4,9 @@ my windows11 dot files :D
 
 <img width="828" height="459" alt="IMG_2295" src="https://github.com/user-attachments/assets/17343d76-c4ff-48a7-b668-e89316fef399" />
 
+<img width="1919" height="1079" alt="Screenshot 2025-11-10 214959" src="https://github.com/user-attachments/assets/4afb983c-05c7-4cb1-903c-36755487e73a" />
+
+
 <img width="1919" height="1079" alt="Screenshot 2025-11-10 013202" src="https://github.com/user-attachments/assets/346723a1-6128-44d3-9d51-51e07f8f0e53" />
 
 <img width="1919" height="1077" alt="Screenshot 2025-11-10 013804" src="https://github.com/user-attachments/assets/5acb5aff-683b-49c9-93f4-29ac74f9cd79" />
