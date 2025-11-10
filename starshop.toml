@@ -1,0 +1,83 @@
+# ==============================
+# 🌟 STARSHIP CONFIG (Default-style with custom colors)
+# ==============================
+
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Add a blank line between prompts
+add_newline = false
+
+# The default prompt format
+format = "$all$character"
+
+# ==============================
+# MODULES
+# ==============================
+
+# Shell character (the arrow/lambda symbol)
+[character]
+success_symbol = "[λ](bold green)"
+error_symbol = "[λ](bold red)"
+vicmd_symbol = "[V](bold blue)"
+
+# Directory
+[directory]
+truncation_length = 3
+truncate_to_repo = false
+style = "blue"
+read_only = " "
+
+# Git branch and status
+[git_branch]
+symbol = " "
+style = "fg:#9ece6a"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+style = "fg:#f7768e"
+format = "[$all_status$ahead_behind]($style) "
+
+# Python
+[python]
+symbol = " "
+style = "fg:#e0af68"
+format = "via [$symbol$version]($style) "
+
+# nodejs
+[nodejs]
+disabled = true
+
+# Rust
+[rust]
+symbol = " "
+style = "fg:#ff9e64"
+format = "via [$symbol$version]($style) "
+
+# Go
+[golang]
+symbol = " "
+style = "fg:#7dcfff"
+format = "via [$symbol$version]($style) "
+
+# Java
+[java]
+symbol = " "
+style = "fg:#f7768e"
+format = "via [$symbol$version]($style) "
+
+# Package (disabled by default)
+[package]
+disabled = true
+
+# Command duration
+[cmd_duration]
+min_time = 2000
+format = "took [$duration]($style) "
+style = "yellow"
+
+# Time (optional)
+[time]
+disabled = true
+format = "[$time]($style)"
+time_format = "%H:%M"
+style = "bold dimmed blue"
