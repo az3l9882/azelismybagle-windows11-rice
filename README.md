@@ -11,7 +11,8 @@ my windows11 dot files :D
 
 <img width="1919" height="1077" alt="Screenshot 2025-11-10 013804" src="https://github.com/user-attachments/assets/5acb5aff-683b-49c9-93f4-29ac74f9cd79" />
 
-<img width="1919" height="1079" alt="Screenshot 2025-11-10 013830" src="https://github.com/user-attachments/assets/273bd0cf-850c-4316-baf4-fc0a66b39615" />
+<img width="1919" height="1079" alt="Screenshot 2025-11-10 215353" src="https://github.com/user-attachments/assets/71d81827-5f9a-41dc-9518-1c802f451fd2" />
+
 
 <img width="1919" height="1079" alt="Screenshot 2025-11-10 013852" src="https://github.com/user-attachments/assets/bfcd7668-f114-4a67-a697-eb1adc9663ca" />
 
