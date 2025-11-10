@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 5,
+  "default_container_padding": 5,
+  "focus_follows_mouse": "Komorebi",
+  "mouse_follows_focus": false,
+  "transparency": false,
+  "transparency_alpha": 225,
+  "animation": {
+    "enabled": true,
+    "duration": 450,
+    "style": "EaseInOutCubic",
+    "fps": 120
+  },
+  "border": false,
+  "border_implementation": "Windows",
+  "border_style": "System",
+  "border_width": 0,
+  "border_offset": 0,
+  "border_colours": {
+    "single": "#00000080",
+    "stack": "#00000080",
+    "monocle": "#00000080",
+    "unfocused": "#00000080",
+    "floating": "#00000080"
+  },
+  "stackbar": {
+    "mode": "Never"
+  },
+  "float_rules": [
+    { "kind": "Exe", "id": "Steam.exe", "matching_strategy": "Equals" },
+    {
+      "kind": "Exe",
+      "id": "Minecraft.Windows.exe",
+      "matching_strategy": "Equals",
+      "float": true
+    },
+    { "kind": "Exe", "id": "Flow.Launcher.exe", "matching_strategy": "Equals" },
+    { "kind": "Exe", "id": "Fluver.exe", "matching_strategy": "Equals" },
+    { "kind": "Exe", "id": "Xbox.exe", "matching_strategy": "Equals" },
+    { "kind": "Exe", "id": "Windhawk.exe", "matching_strategy": "Equals" },
+    { "kind": "Exe", "id": "vlc.exe", "matching_strategy": "Equals" },
+    { "kind": "Exe", "id": "SnippingTool.exe", "matching_strategy": "Equals" },
+    {
+      "kind": "Exe",
+      "id": "ApplicationFrameHost.exe",
+      "matching_strategy": "Equals"
+    },
+    { "kind": "Exe", "id": "yasb.exe", "matching_strategy": "Equals" },
+    { "kind": "Exe", "id": "python3.12.exe", "matching_strategy": "Equals" }
+  ],
+  "rules": [
+    { "exe": "setup.exe", "action": "ignore" },
+    { "exe": "installer.exe", "action": "ignore" },
+    { "exe": "unins000.exe", "action": "ignore" },
+    { "exe": "update.exe", "action": "ignore" },
+    { "exe": "msiexec.exe", "action": "ignore" },
+    { "exe": "bootstrapper.exe", "action": "ignore" },
+    { "exe": "autoupdate.exe", "action": "ignore" },
+    { "title": "Setup", "action": "ignore" },
+    { "title": "Installer", "action": "ignore" },
+    { "title": "Installation", "action": "ignore" },
+    { "title": "Wizard", "action": "ignore" },
+    { "title": "Update", "action": "ignore" }
+  ],
+
+  "monitors": [
+    {
+      "workspaces": [
+        { "name": "1", "layout": "BSP" },
+        { "name": "2", "layout": "BSP" },
+        { "name": "3", "layout": "BSP" },
+        { "name": "4", "layout": "BSP" },
+        { "name": "5", "layout": "BSP" }
+      ]
+    },
+    {
+      "workspaces": [
+        { "name": "1", "layout": "Grid" },
+        { "name": "2", "layout": "Grid" },
+        { "name": "3", "layout": "Grid" },
+        { "name": "4", "layout": "Grid" },
+        { "name": "5", "layout": "Grid" }
+      ]
+    }
+  ]
+}
