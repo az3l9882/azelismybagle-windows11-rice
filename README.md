@@ -1,5 +1,4 @@
-# azelismybagle-windows11-rice
-my windows11 dot files :D
+# my windows11 dot files :D
 
 
 <img width="828" height="459" alt="IMG_2295" src="https://github.com/user-attachments/assets/17343d76-c4ff-48a7-b668-e89316fef399" />
